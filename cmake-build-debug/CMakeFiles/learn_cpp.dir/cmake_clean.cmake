@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/learn_cpp.dir/imooc-447-6_2/main.cpp.o"
   "CMakeFiles/learn_cpp.dir/main.cpp.o"
   "learn_cpp"
   "learn_cpp.pdb"

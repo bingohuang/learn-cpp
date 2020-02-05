@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bingo/CLionProjects/learn-cpp/imooc-447-6_2/main.cpp
+iostream
+-
+
+/Users/bingo/CLionProjects/learn-cpp/main.cpp
+iostream
+-
+

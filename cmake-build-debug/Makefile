@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/bingo/ClionProjects/learn-cpp
+CMAKE_SOURCE_DIR = /Users/bingo/CLionProjects/learn-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/bingo/ClionProjects/learn-cpp/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/bingo/CLionProjects/learn-cpp/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bingo/ClionProjects/learn-cpp/cmake-build-debug/CMakeFiles /Users/bingo/ClionProjects/learn-cpp/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bingo/CLionProjects/learn-cpp/cmake-build-debug/CMakeFiles /Users/bingo/CLionProjects/learn-cpp/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bingo/ClionProjects/learn-cpp/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bingo/CLionProjects/learn-cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named learn_cpp
+# Target rules for targets named learn-cpp
 
 # Build rule for target.
-learn_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 learn_cpp
-.PHONY : learn_cpp
+learn-cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 learn-cpp
+.PHONY : learn-cpp
 
 # fast build rule for target.
-learn_cpp/fast:
-	$(MAKE) -f CMakeFiles/learn_cpp.dir/build.make CMakeFiles/learn_cpp.dir/build
-.PHONY : learn_cpp/fast
+learn-cpp/fast:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/build
+.PHONY : learn-cpp/fast
 
-main.o: main.cpp.o
+imooc-447-6_2/main.o: imooc-447-6_2/main.cpp.o
 
-.PHONY : main.o
+.PHONY : imooc-447-6_2/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/learn_cpp.dir/build.make CMakeFiles/learn_cpp.dir/main.cpp.o
-.PHONY : main.cpp.o
+imooc-447-6_2/main.cpp.o:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/imooc-447-6_2/main.cpp.o
+.PHONY : imooc-447-6_2/main.cpp.o
 
-main.i: main.cpp.i
+imooc-447-6_2/main.i: imooc-447-6_2/main.cpp.i
 
-.PHONY : main.i
+.PHONY : imooc-447-6_2/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/learn_cpp.dir/build.make CMakeFiles/learn_cpp.dir/main.cpp.i
-.PHONY : main.cpp.i
+imooc-447-6_2/main.cpp.i:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/imooc-447-6_2/main.cpp.i
+.PHONY : imooc-447-6_2/main.cpp.i
 
-main.s: main.cpp.s
+imooc-447-6_2/main.s: imooc-447-6_2/main.cpp.s
 
-.PHONY : main.s
+.PHONY : imooc-447-6_2/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/learn_cpp.dir/build.make CMakeFiles/learn_cpp.dir/main.cpp.s
-.PHONY : main.cpp.s
+imooc-447-6_2/main.cpp.s:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/imooc-447-6_2/main.cpp.s
+.PHONY : imooc-447-6_2/main.cpp.s
+
+jike/main.o: jike/main.cpp.o
+
+.PHONY : jike/main.o
+
+# target to build an object file
+jike/main.cpp.o:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/jike/main.cpp.o
+.PHONY : jike/main.cpp.o
+
+jike/main.i: jike/main.cpp.i
+
+.PHONY : jike/main.i
+
+# target to preprocess a source file
+jike/main.cpp.i:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/jike/main.cpp.i
+.PHONY : jike/main.cpp.i
+
+jike/main.s: jike/main.cpp.s
+
+.PHONY : jike/main.s
+
+# target to generate assembly for a file
+jike/main.cpp.s:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/jike/main.cpp.s
+.PHONY : jike/main.cpp.s
 
 # Help Target
 help:
@@ -158,10 +185,13 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... learn_cpp"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... learn-cpp"
+	@echo "... imooc-447-6_2/main.o"
+	@echo "... imooc-447-6_2/main.i"
+	@echo "... imooc-447-6_2/main.s"
+	@echo "... jike/main.o"
+	@echo "... jike/main.i"
+	@echo "... jike/main.s"
 .PHONY : help
 
 

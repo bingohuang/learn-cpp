@@ -44,21 +44,21 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/bingo/ClionProjects/learn-cpp
+CMAKE_SOURCE_DIR = /Users/bingo/CLionProjects/learn-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/bingo/ClionProjects/learn-cpp/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/bingo/CLionProjects/learn-cpp/cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/learn_cpp.dir/all
+all: CMakeFiles/learn-cpp.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/learn_cpp.dir/clean
+clean: CMakeFiles/learn-cpp.dir/clean
 
 .PHONY : clean
 
@@ -68,31 +68,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/learn_cpp.dir
+# Target rules for target CMakeFiles/learn-cpp.dir
 
 # All Build rule for target.
-CMakeFiles/learn_cpp.dir/all:
-	$(MAKE) -f CMakeFiles/learn_cpp.dir/build.make CMakeFiles/learn_cpp.dir/depend
-	$(MAKE) -f CMakeFiles/learn_cpp.dir/build.make CMakeFiles/learn_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bingo/ClionProjects/learn-cpp/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target learn_cpp"
-.PHONY : CMakeFiles/learn_cpp.dir/all
+CMakeFiles/learn-cpp.dir/all:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/depend
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bingo/CLionProjects/learn-cpp/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target learn-cpp"
+.PHONY : CMakeFiles/learn-cpp.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/learn_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bingo/ClionProjects/learn-cpp/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/learn_cpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bingo/ClionProjects/learn-cpp/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/learn_cpp.dir/rule
+CMakeFiles/learn-cpp.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bingo/CLionProjects/learn-cpp/cmake-build-debug/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/learn-cpp.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bingo/CLionProjects/learn-cpp/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/learn-cpp.dir/rule
 
 # Convenience name for target.
-learn_cpp: CMakeFiles/learn_cpp.dir/rule
+learn-cpp: CMakeFiles/learn-cpp.dir/rule
 
-.PHONY : learn_cpp
+.PHONY : learn-cpp
 
 # clean rule for target.
-CMakeFiles/learn_cpp.dir/clean:
-	$(MAKE) -f CMakeFiles/learn_cpp.dir/build.make CMakeFiles/learn_cpp.dir/clean
-.PHONY : CMakeFiles/learn_cpp.dir/clean
+CMakeFiles/learn-cpp.dir/clean:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/clean
+.PHONY : CMakeFiles/learn-cpp.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
