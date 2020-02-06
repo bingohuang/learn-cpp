@@ -80,10 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/bingo/CLionProjects/learn-cpp/imooc-447-6_2/main.cpp">
-			<Option target="learn-cpp"/>
-		</Unit>
-		<Unit filename="/Users/bingo/CLionProjects/learn-cpp/jike/main.cpp">
+		<Unit filename="/Users/bingo/CLionProjects/learn-cpp/jike/incdec/main.cpp">
 			<Option target="learn-cpp"/>
 		</Unit>
 		<Unit filename="/Users/bingo/CLionProjects/learn-cpp/CMakeLists.txt">

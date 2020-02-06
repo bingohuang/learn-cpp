@@ -123,59 +123,32 @@ learn-cpp/fast:
 	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/build
 .PHONY : learn-cpp/fast
 
-imooc-447-6_2/main.o: imooc-447-6_2/main.cpp.o
+jike/incdec/main.o: jike/incdec/main.cpp.o
 
-.PHONY : imooc-447-6_2/main.o
-
-# target to build an object file
-imooc-447-6_2/main.cpp.o:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/imooc-447-6_2/main.cpp.o
-.PHONY : imooc-447-6_2/main.cpp.o
-
-imooc-447-6_2/main.i: imooc-447-6_2/main.cpp.i
-
-.PHONY : imooc-447-6_2/main.i
-
-# target to preprocess a source file
-imooc-447-6_2/main.cpp.i:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/imooc-447-6_2/main.cpp.i
-.PHONY : imooc-447-6_2/main.cpp.i
-
-imooc-447-6_2/main.s: imooc-447-6_2/main.cpp.s
-
-.PHONY : imooc-447-6_2/main.s
-
-# target to generate assembly for a file
-imooc-447-6_2/main.cpp.s:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/imooc-447-6_2/main.cpp.s
-.PHONY : imooc-447-6_2/main.cpp.s
-
-jike/main.o: jike/main.cpp.o
-
-.PHONY : jike/main.o
+.PHONY : jike/incdec/main.o
 
 # target to build an object file
-jike/main.cpp.o:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/jike/main.cpp.o
-.PHONY : jike/main.cpp.o
+jike/incdec/main.cpp.o:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/jike/incdec/main.cpp.o
+.PHONY : jike/incdec/main.cpp.o
 
-jike/main.i: jike/main.cpp.i
+jike/incdec/main.i: jike/incdec/main.cpp.i
 
-.PHONY : jike/main.i
+.PHONY : jike/incdec/main.i
 
 # target to preprocess a source file
-jike/main.cpp.i:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/jike/main.cpp.i
-.PHONY : jike/main.cpp.i
+jike/incdec/main.cpp.i:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/jike/incdec/main.cpp.i
+.PHONY : jike/incdec/main.cpp.i
 
-jike/main.s: jike/main.cpp.s
+jike/incdec/main.s: jike/incdec/main.cpp.s
 
-.PHONY : jike/main.s
+.PHONY : jike/incdec/main.s
 
 # target to generate assembly for a file
-jike/main.cpp.s:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/jike/main.cpp.s
-.PHONY : jike/main.cpp.s
+jike/incdec/main.cpp.s:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/jike/incdec/main.cpp.s
+.PHONY : jike/incdec/main.cpp.s
 
 # Help Target
 help:
@@ -186,12 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... learn-cpp"
-	@echo "... imooc-447-6_2/main.o"
-	@echo "... imooc-447-6_2/main.i"
-	@echo "... imooc-447-6_2/main.s"
-	@echo "... jike/main.o"
-	@echo "... jike/main.i"
-	@echo "... jike/main.s"
+	@echo "... jike/incdec/main.o"
+	@echo "... jike/incdec/main.i"
+	@echo "... jike/incdec/main.s"
 .PHONY : help
 
 
