@@ -123,32 +123,32 @@ learn-cpp/fast:
 	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/build
 .PHONY : learn-cpp/fast
 
-basic/extern.o: basic/extern.cpp.o
+basic/define.o: basic/define.cpp.o
 
-.PHONY : basic/extern.o
+.PHONY : basic/define.o
 
 # target to build an object file
-basic/extern.cpp.o:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/extern.cpp.o
-.PHONY : basic/extern.cpp.o
+basic/define.cpp.o:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/define.cpp.o
+.PHONY : basic/define.cpp.o
 
-basic/extern.i: basic/extern.cpp.i
+basic/define.i: basic/define.cpp.i
 
-.PHONY : basic/extern.i
+.PHONY : basic/define.i
 
 # target to preprocess a source file
-basic/extern.cpp.i:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/extern.cpp.i
-.PHONY : basic/extern.cpp.i
+basic/define.cpp.i:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/define.cpp.i
+.PHONY : basic/define.cpp.i
 
-basic/extern.s: basic/extern.cpp.s
+basic/define.s: basic/define.cpp.s
 
-.PHONY : basic/extern.s
+.PHONY : basic/define.s
 
 # target to generate assembly for a file
-basic/extern.cpp.s:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/extern.cpp.s
-.PHONY : basic/extern.cpp.s
+basic/define.cpp.s:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/define.cpp.s
+.PHONY : basic/define.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... learn-cpp"
-	@echo "... basic/extern.o"
-	@echo "... basic/extern.i"
-	@echo "... basic/extern.s"
+	@echo "... basic/define.o"
+	@echo "... basic/define.i"
+	@echo "... basic/define.s"
 .PHONY : help
 
 
