@@ -123,32 +123,32 @@ learn-cpp/fast:
 	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/build
 .PHONY : learn-cpp/fast
 
-basic/hello_world.o: basic/hello_world.cpp.o
+basic/sizeof.o: basic/sizeof.cpp.o
 
-.PHONY : basic/hello_world.o
+.PHONY : basic/sizeof.o
 
 # target to build an object file
-basic/hello_world.cpp.o:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/hello_world.cpp.o
-.PHONY : basic/hello_world.cpp.o
+basic/sizeof.cpp.o:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/sizeof.cpp.o
+.PHONY : basic/sizeof.cpp.o
 
-basic/hello_world.i: basic/hello_world.cpp.i
+basic/sizeof.i: basic/sizeof.cpp.i
 
-.PHONY : basic/hello_world.i
+.PHONY : basic/sizeof.i
 
 # target to preprocess a source file
-basic/hello_world.cpp.i:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/hello_world.cpp.i
-.PHONY : basic/hello_world.cpp.i
+basic/sizeof.cpp.i:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/sizeof.cpp.i
+.PHONY : basic/sizeof.cpp.i
 
-basic/hello_world.s: basic/hello_world.cpp.s
+basic/sizeof.s: basic/sizeof.cpp.s
 
-.PHONY : basic/hello_world.s
+.PHONY : basic/sizeof.s
 
 # target to generate assembly for a file
-basic/hello_world.cpp.s:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/hello_world.cpp.s
-.PHONY : basic/hello_world.cpp.s
+basic/sizeof.cpp.s:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/sizeof.cpp.s
+.PHONY : basic/sizeof.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... learn-cpp"
-	@echo "... basic/hello_world.o"
-	@echo "... basic/hello_world.i"
-	@echo "... basic/hello_world.s"
+	@echo "... basic/sizeof.o"
+	@echo "... basic/sizeof.i"
+	@echo "... basic/sizeof.s"
 .PHONY : help
 
 
