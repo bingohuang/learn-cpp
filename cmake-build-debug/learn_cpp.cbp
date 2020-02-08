@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/bingo/CLionProjects/learn-cpp/basic/define.cpp">
+		<Unit filename="/Users/bingo/CLionProjects/learn-cpp/basic/const.cpp">
 			<Option target="learn-cpp"/>
 		</Unit>
 		<Unit filename="/Users/bingo/CLionProjects/learn-cpp/CMakeLists.txt">

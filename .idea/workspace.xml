@@ -72,7 +72,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580899598016</updated>
       <workItem from="1580899601204" duration="48000" />
-      <workItem from="1580899686354" duration="6008000" />
+      <workItem from="1580899686354" duration="6115000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1580899963217</created>
@@ -123,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581166130261</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add define">
+      <created>1581166198711</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1581166198711</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,37 +157,38 @@
     <MESSAGE value="add hello world" />
     <MESSAGE value="add sieof" />
     <MESSAGE value="add extern" />
-    <option name="LAST_COMMIT_MESSAGE" value="add extern" />
+    <MESSAGE value="add define" />
+    <option name="LAST_COMMIT_MESSAGE" value="add define" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580902477821">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1580902477821" />
-    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1581166130058">
+    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1581166198563">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581166130058" />
+    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581166198563" />
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1581162487849">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1581162487849" />
-    <state width="698" height="237" key="GridCell.Tab.0.bottom" timestamp="1581166160893">
+    <state width="698" height="237" key="GridCell.Tab.0.bottom" timestamp="1581166284863">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="698" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581166160893" />
-    <state width="698" height="237" key="GridCell.Tab.0.center" timestamp="1581166160892">
+    <state width="698" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581166284863" />
+    <state width="698" height="237" key="GridCell.Tab.0.center" timestamp="1581166284861">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="698" height="237" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581166160892" />
-    <state width="698" height="237" key="GridCell.Tab.0.left" timestamp="1581166160891">
+    <state width="698" height="237" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581166284861" />
+    <state width="698" height="237" key="GridCell.Tab.0.left" timestamp="1581166284860">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="698" height="237" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581166160891" />
-    <state width="698" height="237" key="GridCell.Tab.0.right" timestamp="1581166160893">
+    <state width="698" height="237" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581166284860" />
+    <state width="698" height="237" key="GridCell.Tab.0.right" timestamp="1581166284862">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="698" height="237" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581166160893" />
+    <state width="698" height="237" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581166284862" />
     <state x="507" y="167" key="RollbackChangesDialog" timestamp="1580899920311">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

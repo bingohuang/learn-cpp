@@ -123,32 +123,32 @@ learn-cpp/fast:
 	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/build
 .PHONY : learn-cpp/fast
 
-basic/define.o: basic/define.cpp.o
+basic/const.o: basic/const.cpp.o
 
-.PHONY : basic/define.o
+.PHONY : basic/const.o
 
 # target to build an object file
-basic/define.cpp.o:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/define.cpp.o
-.PHONY : basic/define.cpp.o
+basic/const.cpp.o:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/const.cpp.o
+.PHONY : basic/const.cpp.o
 
-basic/define.i: basic/define.cpp.i
+basic/const.i: basic/const.cpp.i
 
-.PHONY : basic/define.i
+.PHONY : basic/const.i
 
 # target to preprocess a source file
-basic/define.cpp.i:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/define.cpp.i
-.PHONY : basic/define.cpp.i
+basic/const.cpp.i:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/const.cpp.i
+.PHONY : basic/const.cpp.i
 
-basic/define.s: basic/define.cpp.s
+basic/const.s: basic/const.cpp.s
 
-.PHONY : basic/define.s
+.PHONY : basic/const.s
 
 # target to generate assembly for a file
-basic/define.cpp.s:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/define.cpp.s
-.PHONY : basic/define.cpp.s
+basic/const.cpp.s:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/const.cpp.s
+.PHONY : basic/const.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... learn-cpp"
-	@echo "... basic/define.o"
-	@echo "... basic/define.i"
-	@echo "... basic/define.s"
+	@echo "... basic/const.o"
+	@echo "... basic/const.i"
+	@echo "... basic/const.s"
 .PHONY : help
 
 
