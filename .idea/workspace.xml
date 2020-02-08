@@ -14,6 +14,16 @@
     <list default="true" id="a4ab7813-78ea-4156-849b-bb7557bef782" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learn-cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/learn-cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learn_cpp.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/learn_cpp.cbp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +82,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580899598016</updated>
       <workItem from="1580899601204" duration="48000" />
-      <workItem from="1580899686354" duration="6115000" />
+      <workItem from="1580899686354" duration="6455000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1580899963217</created>
@@ -130,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581166198711</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add const">
+      <created>1581166383657</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1581166383657</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,37 +175,38 @@
     <MESSAGE value="add sieof" />
     <MESSAGE value="add extern" />
     <MESSAGE value="add define" />
-    <option name="LAST_COMMIT_MESSAGE" value="add define" />
+    <MESSAGE value="add const" />
+    <option name="LAST_COMMIT_MESSAGE" value="add const" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580902477821">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1580902477821" />
-    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1581166198563">
+    <state x="314" y="52" key="CommitChangelistDialog2" timestamp="1581166383490">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581166198563" />
+    <state x="314" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581166383490" />
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1581162487849">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1581162487849" />
-    <state width="698" height="237" key="GridCell.Tab.0.bottom" timestamp="1581166284863">
+    <state width="698" height="237" key="GridCell.Tab.0.bottom" timestamp="1581166590850">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="698" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581166284863" />
-    <state width="698" height="237" key="GridCell.Tab.0.center" timestamp="1581166284861">
+    <state width="698" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581166590850" />
+    <state width="698" height="237" key="GridCell.Tab.0.center" timestamp="1581166590849">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="698" height="237" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581166284861" />
-    <state width="698" height="237" key="GridCell.Tab.0.left" timestamp="1581166284860">
+    <state width="698" height="237" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581166590849" />
+    <state width="698" height="237" key="GridCell.Tab.0.left" timestamp="1581166590848">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="698" height="237" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581166284860" />
-    <state width="698" height="237" key="GridCell.Tab.0.right" timestamp="1581166284862">
+    <state width="698" height="237" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581166590848" />
+    <state width="698" height="237" key="GridCell.Tab.0.right" timestamp="1581166590850">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="698" height="237" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581166284862" />
+    <state width="698" height="237" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581166590850" />
     <state x="507" y="167" key="RollbackChangesDialog" timestamp="1580899920311">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

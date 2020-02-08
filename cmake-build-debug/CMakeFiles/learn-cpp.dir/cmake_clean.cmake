@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/learn-cpp.dir/basic/const.cpp.o"
+  "CMakeFiles/learn-cpp.dir/basic/unsigned.cpp.o"
   "learn-cpp"
   "learn-cpp.pdb"
 )
