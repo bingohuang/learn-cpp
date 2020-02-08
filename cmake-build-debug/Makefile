@@ -123,32 +123,32 @@ learn-cpp/fast:
 	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/build
 .PHONY : learn-cpp/fast
 
-jike/incdec/main.o: jike/incdec/main.cpp.o
+basic/hello_world.o: basic/hello_world.cpp.o
 
-.PHONY : jike/incdec/main.o
+.PHONY : basic/hello_world.o
 
 # target to build an object file
-jike/incdec/main.cpp.o:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/jike/incdec/main.cpp.o
-.PHONY : jike/incdec/main.cpp.o
+basic/hello_world.cpp.o:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/hello_world.cpp.o
+.PHONY : basic/hello_world.cpp.o
 
-jike/incdec/main.i: jike/incdec/main.cpp.i
+basic/hello_world.i: basic/hello_world.cpp.i
 
-.PHONY : jike/incdec/main.i
+.PHONY : basic/hello_world.i
 
 # target to preprocess a source file
-jike/incdec/main.cpp.i:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/jike/incdec/main.cpp.i
-.PHONY : jike/incdec/main.cpp.i
+basic/hello_world.cpp.i:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/hello_world.cpp.i
+.PHONY : basic/hello_world.cpp.i
 
-jike/incdec/main.s: jike/incdec/main.cpp.s
+basic/hello_world.s: basic/hello_world.cpp.s
 
-.PHONY : jike/incdec/main.s
+.PHONY : basic/hello_world.s
 
 # target to generate assembly for a file
-jike/incdec/main.cpp.s:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/jike/incdec/main.cpp.s
-.PHONY : jike/incdec/main.cpp.s
+basic/hello_world.cpp.s:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/hello_world.cpp.s
+.PHONY : basic/hello_world.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... learn-cpp"
-	@echo "... jike/incdec/main.o"
-	@echo "... jike/incdec/main.i"
-	@echo "... jike/incdec/main.s"
+	@echo "... basic/hello_world.o"
+	@echo "... basic/hello_world.i"
+	@echo "... basic/hello_world.s"
 .PHONY : help
 
 

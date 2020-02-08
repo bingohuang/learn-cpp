@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/learn-cpp.dir/jike/incdec/main.cpp.o"
+  "CMakeFiles/learn-cpp.dir/basic/hello_world.cpp.o"
   "learn-cpp"
   "learn-cpp.pdb"
 )
