@@ -4,8 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/bingo/CLionProjects/learn-cpp/basic/extern_file.cpp" "/Users/bingo/CLionProjects/learn-cpp/cmake-build-debug/CMakeFiles/learn-cpp.dir/basic/extern_file.cpp.o"
-  "/Users/bingo/CLionProjects/learn-cpp/basic/extern_support.cpp" "/Users/bingo/CLionProjects/learn-cpp/cmake-build-debug/CMakeFiles/learn-cpp.dir/basic/extern_support.cpp.o"
+  "/Users/bingo/CLionProjects/learn-cpp/basic/for.cpp" "/Users/bingo/CLionProjects/learn-cpp/cmake-build-debug/CMakeFiles/learn-cpp.dir/basic/for.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

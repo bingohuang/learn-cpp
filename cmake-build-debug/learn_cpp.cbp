@@ -80,10 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/bingo/CLionProjects/learn-cpp/basic/extern_file.cpp">
-			<Option target="learn-cpp"/>
-		</Unit>
-		<Unit filename="/Users/bingo/CLionProjects/learn-cpp/basic/extern_support.cpp">
+		<Unit filename="/Users/bingo/CLionProjects/learn-cpp/basic/for.cpp">
 			<Option target="learn-cpp"/>
 		</Unit>
 		<Unit filename="/Users/bingo/CLionProjects/learn-cpp/CMakeLists.txt">

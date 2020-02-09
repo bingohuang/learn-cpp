@@ -74,12 +74,12 @@ preinstall:
 CMakeFiles/learn-cpp.dir/all:
 	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/depend
 	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bingo/CLionProjects/learn-cpp/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target learn-cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/bingo/CLionProjects/learn-cpp/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target learn-cpp"
 .PHONY : CMakeFiles/learn-cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/learn-cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bingo/CLionProjects/learn-cpp/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bingo/CLionProjects/learn-cpp/cmake-build-debug/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/learn-cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bingo/CLionProjects/learn-cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/learn-cpp.dir/rule

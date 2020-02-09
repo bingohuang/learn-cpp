@@ -123,59 +123,32 @@ learn-cpp/fast:
 	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/build
 .PHONY : learn-cpp/fast
 
-basic/extern_file.o: basic/extern_file.cpp.o
+basic/for.o: basic/for.cpp.o
 
-.PHONY : basic/extern_file.o
-
-# target to build an object file
-basic/extern_file.cpp.o:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/extern_file.cpp.o
-.PHONY : basic/extern_file.cpp.o
-
-basic/extern_file.i: basic/extern_file.cpp.i
-
-.PHONY : basic/extern_file.i
-
-# target to preprocess a source file
-basic/extern_file.cpp.i:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/extern_file.cpp.i
-.PHONY : basic/extern_file.cpp.i
-
-basic/extern_file.s: basic/extern_file.cpp.s
-
-.PHONY : basic/extern_file.s
-
-# target to generate assembly for a file
-basic/extern_file.cpp.s:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/extern_file.cpp.s
-.PHONY : basic/extern_file.cpp.s
-
-basic/extern_support.o: basic/extern_support.cpp.o
-
-.PHONY : basic/extern_support.o
+.PHONY : basic/for.o
 
 # target to build an object file
-basic/extern_support.cpp.o:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/extern_support.cpp.o
-.PHONY : basic/extern_support.cpp.o
+basic/for.cpp.o:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/for.cpp.o
+.PHONY : basic/for.cpp.o
 
-basic/extern_support.i: basic/extern_support.cpp.i
+basic/for.i: basic/for.cpp.i
 
-.PHONY : basic/extern_support.i
+.PHONY : basic/for.i
 
 # target to preprocess a source file
-basic/extern_support.cpp.i:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/extern_support.cpp.i
-.PHONY : basic/extern_support.cpp.i
+basic/for.cpp.i:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/for.cpp.i
+.PHONY : basic/for.cpp.i
 
-basic/extern_support.s: basic/extern_support.cpp.s
+basic/for.s: basic/for.cpp.s
 
-.PHONY : basic/extern_support.s
+.PHONY : basic/for.s
 
 # target to generate assembly for a file
-basic/extern_support.cpp.s:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/extern_support.cpp.s
-.PHONY : basic/extern_support.cpp.s
+basic/for.cpp.s:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/for.cpp.s
+.PHONY : basic/for.cpp.s
 
 # Help Target
 help:
@@ -186,12 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... learn-cpp"
-	@echo "... basic/extern_file.o"
-	@echo "... basic/extern_file.i"
-	@echo "... basic/extern_file.s"
-	@echo "... basic/extern_support.o"
-	@echo "... basic/extern_support.i"
-	@echo "... basic/extern_support.s"
+	@echo "... basic/for.o"
+	@echo "... basic/for.i"
+	@echo "... basic/for.s"
 .PHONY : help
 
 

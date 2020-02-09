@@ -57,45 +57,30 @@ include CMakeFiles/learn-cpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/learn-cpp.dir/flags.make
 
-CMakeFiles/learn-cpp.dir/basic/extern_file.cpp.o: CMakeFiles/learn-cpp.dir/flags.make
-CMakeFiles/learn-cpp.dir/basic/extern_file.cpp.o: ../basic/extern_file.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bingo/CLionProjects/learn-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/learn-cpp.dir/basic/extern_file.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learn-cpp.dir/basic/extern_file.cpp.o -c /Users/bingo/CLionProjects/learn-cpp/basic/extern_file.cpp
+CMakeFiles/learn-cpp.dir/basic/for.cpp.o: CMakeFiles/learn-cpp.dir/flags.make
+CMakeFiles/learn-cpp.dir/basic/for.cpp.o: ../basic/for.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bingo/CLionProjects/learn-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/learn-cpp.dir/basic/for.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learn-cpp.dir/basic/for.cpp.o -c /Users/bingo/CLionProjects/learn-cpp/basic/for.cpp
 
-CMakeFiles/learn-cpp.dir/basic/extern_file.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learn-cpp.dir/basic/extern_file.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bingo/CLionProjects/learn-cpp/basic/extern_file.cpp > CMakeFiles/learn-cpp.dir/basic/extern_file.cpp.i
+CMakeFiles/learn-cpp.dir/basic/for.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learn-cpp.dir/basic/for.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bingo/CLionProjects/learn-cpp/basic/for.cpp > CMakeFiles/learn-cpp.dir/basic/for.cpp.i
 
-CMakeFiles/learn-cpp.dir/basic/extern_file.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learn-cpp.dir/basic/extern_file.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bingo/CLionProjects/learn-cpp/basic/extern_file.cpp -o CMakeFiles/learn-cpp.dir/basic/extern_file.cpp.s
-
-CMakeFiles/learn-cpp.dir/basic/extern_support.cpp.o: CMakeFiles/learn-cpp.dir/flags.make
-CMakeFiles/learn-cpp.dir/basic/extern_support.cpp.o: ../basic/extern_support.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bingo/CLionProjects/learn-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/learn-cpp.dir/basic/extern_support.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learn-cpp.dir/basic/extern_support.cpp.o -c /Users/bingo/CLionProjects/learn-cpp/basic/extern_support.cpp
-
-CMakeFiles/learn-cpp.dir/basic/extern_support.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learn-cpp.dir/basic/extern_support.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bingo/CLionProjects/learn-cpp/basic/extern_support.cpp > CMakeFiles/learn-cpp.dir/basic/extern_support.cpp.i
-
-CMakeFiles/learn-cpp.dir/basic/extern_support.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learn-cpp.dir/basic/extern_support.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bingo/CLionProjects/learn-cpp/basic/extern_support.cpp -o CMakeFiles/learn-cpp.dir/basic/extern_support.cpp.s
+CMakeFiles/learn-cpp.dir/basic/for.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learn-cpp.dir/basic/for.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bingo/CLionProjects/learn-cpp/basic/for.cpp -o CMakeFiles/learn-cpp.dir/basic/for.cpp.s
 
 # Object files for target learn-cpp
 learn__cpp_OBJECTS = \
-"CMakeFiles/learn-cpp.dir/basic/extern_file.cpp.o" \
-"CMakeFiles/learn-cpp.dir/basic/extern_support.cpp.o"
+"CMakeFiles/learn-cpp.dir/basic/for.cpp.o"
 
 # External object files for target learn-cpp
 learn__cpp_EXTERNAL_OBJECTS =
 
-learn-cpp: CMakeFiles/learn-cpp.dir/basic/extern_file.cpp.o
-learn-cpp: CMakeFiles/learn-cpp.dir/basic/extern_support.cpp.o
+learn-cpp: CMakeFiles/learn-cpp.dir/basic/for.cpp.o
 learn-cpp: CMakeFiles/learn-cpp.dir/build.make
 learn-cpp: CMakeFiles/learn-cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bingo/CLionProjects/learn-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable learn-cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bingo/CLionProjects/learn-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable learn-cpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/learn-cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
