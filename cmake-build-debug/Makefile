@@ -123,32 +123,32 @@ learn-cpp/fast:
 	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/build
 .PHONY : learn-cpp/fast
 
-basic/unsigned.o: basic/unsigned.cpp.o
+basic/static.o: basic/static.cpp.o
 
-.PHONY : basic/unsigned.o
+.PHONY : basic/static.o
 
 # target to build an object file
-basic/unsigned.cpp.o:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/unsigned.cpp.o
-.PHONY : basic/unsigned.cpp.o
+basic/static.cpp.o:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/static.cpp.o
+.PHONY : basic/static.cpp.o
 
-basic/unsigned.i: basic/unsigned.cpp.i
+basic/static.i: basic/static.cpp.i
 
-.PHONY : basic/unsigned.i
+.PHONY : basic/static.i
 
 # target to preprocess a source file
-basic/unsigned.cpp.i:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/unsigned.cpp.i
-.PHONY : basic/unsigned.cpp.i
+basic/static.cpp.i:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/static.cpp.i
+.PHONY : basic/static.cpp.i
 
-basic/unsigned.s: basic/unsigned.cpp.s
+basic/static.s: basic/static.cpp.s
 
-.PHONY : basic/unsigned.s
+.PHONY : basic/static.s
 
 # target to generate assembly for a file
-basic/unsigned.cpp.s:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/unsigned.cpp.s
-.PHONY : basic/unsigned.cpp.s
+basic/static.cpp.s:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/static.cpp.s
+.PHONY : basic/static.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... learn-cpp"
-	@echo "... basic/unsigned.o"
-	@echo "... basic/unsigned.i"
-	@echo "... basic/unsigned.s"
+	@echo "... basic/static.o"
+	@echo "... basic/static.i"
+	@echo "... basic/static.s"
 .PHONY : help
 
 
