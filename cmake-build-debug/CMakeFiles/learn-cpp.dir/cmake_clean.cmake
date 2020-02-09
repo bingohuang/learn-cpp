@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/learn-cpp.dir/basic/static.cpp.o"
+  "CMakeFiles/learn-cpp.dir/basic/extern_file.cpp.o"
+  "CMakeFiles/learn-cpp.dir/basic/extern_support.cpp.o"
   "learn-cpp"
   "learn-cpp.pdb"
 )

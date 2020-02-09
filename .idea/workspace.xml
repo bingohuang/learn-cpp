@@ -12,7 +12,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4ab7813-78ea-4156-849b-bb7557bef782" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/basic/static.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/basic/static.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/extern.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/basic/extern_local.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learn-cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/learn-cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learn_cpp.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/learn_cpp.cbp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580899598016</updated>
       <workItem from="1580899601204" duration="48000" />
-      <workItem from="1580899686354" duration="7504000" />
+      <workItem from="1580899686354" duration="7749000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1580899963217</created>
@@ -157,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581229066564</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add static">
+      <created>1581229120072</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1581229120072</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,37 +210,38 @@
     <MESSAGE value="add unsigned" />
     <MESSAGE value="add README.md" />
     <MESSAGE value="add extern" />
-    <option name="LAST_COMMIT_MESSAGE" value="add extern" />
+    <MESSAGE value="add static" />
+    <option name="LAST_COMMIT_MESSAGE" value="add static" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580902477821">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1580902477821" />
-    <state x="289" y="105" width="1070" height="795" key="CommitChangelistDialog2" timestamp="1581229066389">
+    <state x="289" y="105" width="1070" height="795" key="CommitChangelistDialog2" timestamp="1581229401316">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="289" y="105" width="1070" height="795" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581229066389" />
+    <state x="289" y="105" width="1070" height="795" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581229401316" />
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1581162487849">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1581162487849" />
-    <state width="698" height="237" key="GridCell.Tab.0.bottom" timestamp="1581228921024">
+    <state width="1398" height="237" key="GridCell.Tab.0.bottom" timestamp="1581229338685">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="698" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581228921024" />
-    <state width="698" height="237" key="GridCell.Tab.0.center" timestamp="1581228921023">
+    <state width="1398" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581229338685" />
+    <state width="1398" height="237" key="GridCell.Tab.0.center" timestamp="1581229338684">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="698" height="237" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581228921023" />
-    <state width="698" height="237" key="GridCell.Tab.0.left" timestamp="1581228921022">
+    <state width="1398" height="237" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581229338684" />
+    <state width="1398" height="237" key="GridCell.Tab.0.left" timestamp="1581229338683">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="698" height="237" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581228921022" />
-    <state width="698" height="237" key="GridCell.Tab.0.right" timestamp="1581228921023">
+    <state width="1398" height="237" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581229338683" />
+    <state width="1398" height="237" key="GridCell.Tab.0.right" timestamp="1581229338684">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="698" height="237" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581228921023" />
+    <state width="1398" height="237" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581229338684" />
     <state x="507" y="167" key="RollbackChangesDialog" timestamp="1580899920311">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
