@@ -13,7 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a4ab7813-78ea-4156-849b-bb7557bef782" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580899598016</updated>
       <workItem from="1580899601204" duration="48000" />
-      <workItem from="1580899686354" duration="8196000" />
+      <workItem from="1580899686354" duration="8456000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1580899963217</created>
@@ -172,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581229424560</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="add for">
+      <created>1581230182619</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1581230182619</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,37 +211,38 @@
     <MESSAGE value="add extern" />
     <MESSAGE value="add static" />
     <MESSAGE value="add extern file" />
-    <option name="LAST_COMMIT_MESSAGE" value="add extern file" />
+    <MESSAGE value="add for" />
+    <option name="LAST_COMMIT_MESSAGE" value="add for" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580902477821">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1580902477821" />
-    <state x="289" y="105" width="1070" height="795" key="CommitChangelistDialog2" timestamp="1581229424390">
+    <state x="289" y="105" width="1070" height="795" key="CommitChangelistDialog2" timestamp="1581230182426">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="289" y="105" width="1070" height="795" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581229424390" />
+    <state x="289" y="105" width="1070" height="795" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581230182426" />
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1581162487849">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1581162487849" />
-    <state width="698" height="237" key="GridCell.Tab.0.bottom" timestamp="1581230168078">
+    <state width="698" height="237" key="GridCell.Tab.0.bottom" timestamp="1581317915124">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="698" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581230168078" />
-    <state width="698" height="237" key="GridCell.Tab.0.center" timestamp="1581230168077">
+    <state width="698" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581317915124" />
+    <state width="698" height="237" key="GridCell.Tab.0.center" timestamp="1581317915123">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="698" height="237" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581230168077" />
-    <state width="698" height="237" key="GridCell.Tab.0.left" timestamp="1581230168076">
+    <state width="698" height="237" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581317915123" />
+    <state width="698" height="237" key="GridCell.Tab.0.left" timestamp="1581317915123">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="698" height="237" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581230168076" />
-    <state width="698" height="237" key="GridCell.Tab.0.right" timestamp="1581230168078">
+    <state width="698" height="237" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581317915123" />
+    <state width="698" height="237" key="GridCell.Tab.0.right" timestamp="1581317915124">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="698" height="237" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581230168078" />
+    <state width="698" height="237" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581317915124" />
     <state x="507" y="167" key="RollbackChangesDialog" timestamp="1580899920311">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
