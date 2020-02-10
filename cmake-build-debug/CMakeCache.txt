@@ -202,7 +202,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=learn_cpp
+CMAKE_PROJECT_NAME:STATIC=learn-cpp
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION:STATIC=1.10.0
@@ -333,6 +333,12 @@ gtest_hide_internal_symbols:BOOL=OFF
 
 //Dependencies for the target
 gtest_main_LIB_DEPENDS:STATIC=general;gtest;
+
+//Value Computed by CMake
+learn-cpp_BINARY_DIR:STATIC=/Users/bingo/CLionProjects/learn-cpp/cmake-build-debug
+
+//Value Computed by CMake
+learn-cpp_SOURCE_DIR:STATIC=/Users/bingo/CLionProjects/learn-cpp
 
 //Value Computed by CMake
 learn_cpp_BINARY_DIR:STATIC=/Users/bingo/CLionProjects/learn-cpp/cmake-build-debug

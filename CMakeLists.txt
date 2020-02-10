@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.15)
-project(learn_cpp)
+project(learn-cpp)
 
 set(CMAKE_CXX_STANDARD 14)
 
@@ -17,9 +17,9 @@ set(LIBRARIES
 # test
 #add_executable(learn_cpp test.cpp)
 #add_executable(learn_cpp basic/_test.cpp)
-add_executable(learn_cpp basic/vector_test.cpp)
+add_executable(learn-cpp basic/vector_test.cpp)
 
-target_link_libraries(learn_cpp ${LIBRARIES})
+target_link_libraries(learn-cpp ${LIBRARIES})
 
 #add_test(Test learn_cpp)
 #enable_testing()

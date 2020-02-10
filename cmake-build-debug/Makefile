@@ -157,17 +157,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named learn_cpp
+# Target rules for targets named learn-cpp
 
 # Build rule for target.
-learn_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 learn_cpp
-.PHONY : learn_cpp
+learn-cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 learn-cpp
+.PHONY : learn-cpp
 
 # fast build rule for target.
-learn_cpp/fast:
-	$(MAKE) -f CMakeFiles/learn_cpp.dir/build.make CMakeFiles/learn_cpp.dir/build
-.PHONY : learn_cpp/fast
+learn-cpp/fast:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/build
+.PHONY : learn-cpp/fast
 
 #=============================================================================
 # Target rules for targets named gmock
@@ -227,7 +227,7 @@ basic/vector_test.o: basic/vector_test.cpp.o
 
 # target to build an object file
 basic/vector_test.cpp.o:
-	$(MAKE) -f CMakeFiles/learn_cpp.dir/build.make CMakeFiles/learn_cpp.dir/basic/vector_test.cpp.o
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/vector_test.cpp.o
 .PHONY : basic/vector_test.cpp.o
 
 basic/vector_test.i: basic/vector_test.cpp.i
@@ -236,7 +236,7 @@ basic/vector_test.i: basic/vector_test.cpp.i
 
 # target to preprocess a source file
 basic/vector_test.cpp.i:
-	$(MAKE) -f CMakeFiles/learn_cpp.dir/build.make CMakeFiles/learn_cpp.dir/basic/vector_test.cpp.i
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/vector_test.cpp.i
 .PHONY : basic/vector_test.cpp.i
 
 basic/vector_test.s: basic/vector_test.cpp.s
@@ -245,7 +245,7 @@ basic/vector_test.s: basic/vector_test.cpp.s
 
 # target to generate assembly for a file
 basic/vector_test.cpp.s:
-	$(MAKE) -f CMakeFiles/learn_cpp.dir/build.make CMakeFiles/learn_cpp.dir/basic/vector_test.cpp.s
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/vector_test.cpp.s
 .PHONY : basic/vector_test.cpp.s
 
 # Help Target
@@ -257,8 +257,8 @@ help:
 	@echo "... install/local"
 	@echo "... install/strip"
 	@echo "... install"
-	@echo "... learn_cpp"
 	@echo "... list_install_components"
+	@echo "... learn-cpp"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... gmock"

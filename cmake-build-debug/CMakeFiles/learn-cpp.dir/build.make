@@ -57,28 +57,29 @@ include CMakeFiles/learn-cpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/learn-cpp.dir/flags.make
 
-CMakeFiles/learn-cpp.dir/basic/sizeof.cpp.o: CMakeFiles/learn-cpp.dir/flags.make
-CMakeFiles/learn-cpp.dir/basic/sizeof.cpp.o: ../basic/sizeof.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bingo/CLionProjects/learn-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/learn-cpp.dir/basic/sizeof.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learn-cpp.dir/basic/sizeof.cpp.o -c /Users/bingo/CLionProjects/learn-cpp/basic/sizeof.cpp
+CMakeFiles/learn-cpp.dir/basic/vector_test.cpp.o: CMakeFiles/learn-cpp.dir/flags.make
+CMakeFiles/learn-cpp.dir/basic/vector_test.cpp.o: ../basic/vector_test.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bingo/CLionProjects/learn-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/learn-cpp.dir/basic/vector_test.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/learn-cpp.dir/basic/vector_test.cpp.o -c /Users/bingo/CLionProjects/learn-cpp/basic/vector_test.cpp
 
-CMakeFiles/learn-cpp.dir/basic/sizeof.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learn-cpp.dir/basic/sizeof.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bingo/CLionProjects/learn-cpp/basic/sizeof.cpp > CMakeFiles/learn-cpp.dir/basic/sizeof.cpp.i
+CMakeFiles/learn-cpp.dir/basic/vector_test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/learn-cpp.dir/basic/vector_test.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bingo/CLionProjects/learn-cpp/basic/vector_test.cpp > CMakeFiles/learn-cpp.dir/basic/vector_test.cpp.i
 
-CMakeFiles/learn-cpp.dir/basic/sizeof.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learn-cpp.dir/basic/sizeof.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bingo/CLionProjects/learn-cpp/basic/sizeof.cpp -o CMakeFiles/learn-cpp.dir/basic/sizeof.cpp.s
+CMakeFiles/learn-cpp.dir/basic/vector_test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/learn-cpp.dir/basic/vector_test.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bingo/CLionProjects/learn-cpp/basic/vector_test.cpp -o CMakeFiles/learn-cpp.dir/basic/vector_test.cpp.s
 
 # Object files for target learn-cpp
 learn__cpp_OBJECTS = \
-"CMakeFiles/learn-cpp.dir/basic/sizeof.cpp.o"
+"CMakeFiles/learn-cpp.dir/basic/vector_test.cpp.o"
 
 # External object files for target learn-cpp
 learn__cpp_EXTERNAL_OBJECTS =
 
-learn-cpp: CMakeFiles/learn-cpp.dir/basic/sizeof.cpp.o
+learn-cpp: CMakeFiles/learn-cpp.dir/basic/vector_test.cpp.o
 learn-cpp: CMakeFiles/learn-cpp.dir/build.make
+learn-cpp: lib/libgtestd.a
 learn-cpp: CMakeFiles/learn-cpp.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bingo/CLionProjects/learn-cpp/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable learn-cpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/learn-cpp.dir/link.txt --verbose=$(VERBOSE)
