@@ -6,7 +6,7 @@ int add(int a, int b) {
 }
 
 TEST(test, c1) {
-    EXPECT_EQ(4, add(1, 2));
+    EXPECT_EQ(3, add(1, 2));
 }
 
 GTEST_API_ int main(int argc, char ** argv) {

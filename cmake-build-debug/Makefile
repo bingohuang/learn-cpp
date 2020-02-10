@@ -221,32 +221,32 @@ gtest/fast:
 	$(MAKE) -f googletest/googletest/CMakeFiles/gtest.dir/build.make googletest/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
-test.o: test.cpp.o
+basic/_test.o: basic/_test.cpp.o
 
-.PHONY : test.o
+.PHONY : basic/_test.o
 
 # target to build an object file
-test.cpp.o:
-	$(MAKE) -f CMakeFiles/learn_cpp.dir/build.make CMakeFiles/learn_cpp.dir/test.cpp.o
-.PHONY : test.cpp.o
+basic/_test.cpp.o:
+	$(MAKE) -f CMakeFiles/learn_cpp.dir/build.make CMakeFiles/learn_cpp.dir/basic/_test.cpp.o
+.PHONY : basic/_test.cpp.o
 
-test.i: test.cpp.i
+basic/_test.i: basic/_test.cpp.i
 
-.PHONY : test.i
+.PHONY : basic/_test.i
 
 # target to preprocess a source file
-test.cpp.i:
-	$(MAKE) -f CMakeFiles/learn_cpp.dir/build.make CMakeFiles/learn_cpp.dir/test.cpp.i
-.PHONY : test.cpp.i
+basic/_test.cpp.i:
+	$(MAKE) -f CMakeFiles/learn_cpp.dir/build.make CMakeFiles/learn_cpp.dir/basic/_test.cpp.i
+.PHONY : basic/_test.cpp.i
 
-test.s: test.cpp.s
+basic/_test.s: basic/_test.cpp.s
 
-.PHONY : test.s
+.PHONY : basic/_test.s
 
 # target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) -f CMakeFiles/learn_cpp.dir/build.make CMakeFiles/learn_cpp.dir/test.cpp.s
-.PHONY : test.cpp.s
+basic/_test.cpp.s:
+	$(MAKE) -f CMakeFiles/learn_cpp.dir/build.make CMakeFiles/learn_cpp.dir/basic/_test.cpp.s
+.PHONY : basic/_test.cpp.s
 
 # Help Target
 help:
@@ -265,9 +265,9 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
+	@echo "... basic/_test.o"
+	@echo "... basic/_test.i"
+	@echo "... basic/_test.s"
 .PHONY : help
 
 

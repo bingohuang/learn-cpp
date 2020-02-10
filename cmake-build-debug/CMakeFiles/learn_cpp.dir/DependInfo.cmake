@@ -4,12 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/bingo/CLionProjects/learn-cpp/test.cpp" "/Users/bingo/CLionProjects/learn-cpp/cmake-build-debug/CMakeFiles/learn_cpp.dir/test.cpp.o"
+  "/Users/bingo/CLionProjects/learn-cpp/basic/_test.cpp" "/Users/bingo/CLionProjects/learn-cpp/cmake-build-debug/CMakeFiles/learn_cpp.dir/basic/_test.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  ".././googletest/include"
   "../googletest/googletest/include"
   "../googletest/googletest"
   )

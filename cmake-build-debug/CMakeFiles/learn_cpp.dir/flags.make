@@ -6,5 +6,5 @@ CXX_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/Ma
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /Users/bingo/CLionProjects/learn-cpp/googletest/googletest/include -isystem /Users/bingo/CLionProjects/learn-cpp/googletest/googletest 
+CXX_INCLUDES = -I/Users/bingo/CLionProjects/learn-cpp/./googletest/include -isystem /Users/bingo/CLionProjects/learn-cpp/googletest/googletest/include -isystem /Users/bingo/CLionProjects/learn-cpp/googletest/googletest 
 
