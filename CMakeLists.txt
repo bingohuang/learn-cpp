@@ -16,7 +16,8 @@ set(LIBRARIES
 
 # test
 #add_executable(learn_cpp test.cpp)
-add_executable(learn_cpp basic/_test.cpp)
+#add_executable(learn_cpp basic/_test.cpp)
+add_executable(learn_cpp basic/vector_test.cpp)
 
 target_link_libraries(learn_cpp ${LIBRARIES})
 

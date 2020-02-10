@@ -310,10 +310,8 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/Users/bingo/CLionProjects/learn-cpp/basic/_test.cpp
+/Users/bingo/CLionProjects/learn-cpp/basic/vector_test.cpp
 gtest/gtest.h
--
-numeric
 -
 vector
 -

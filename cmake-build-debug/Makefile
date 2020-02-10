@@ -221,32 +221,32 @@ gtest/fast:
 	$(MAKE) -f googletest/googletest/CMakeFiles/gtest.dir/build.make googletest/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
-basic/_test.o: basic/_test.cpp.o
+basic/vector_test.o: basic/vector_test.cpp.o
 
-.PHONY : basic/_test.o
+.PHONY : basic/vector_test.o
 
 # target to build an object file
-basic/_test.cpp.o:
-	$(MAKE) -f CMakeFiles/learn_cpp.dir/build.make CMakeFiles/learn_cpp.dir/basic/_test.cpp.o
-.PHONY : basic/_test.cpp.o
+basic/vector_test.cpp.o:
+	$(MAKE) -f CMakeFiles/learn_cpp.dir/build.make CMakeFiles/learn_cpp.dir/basic/vector_test.cpp.o
+.PHONY : basic/vector_test.cpp.o
 
-basic/_test.i: basic/_test.cpp.i
+basic/vector_test.i: basic/vector_test.cpp.i
 
-.PHONY : basic/_test.i
+.PHONY : basic/vector_test.i
 
 # target to preprocess a source file
-basic/_test.cpp.i:
-	$(MAKE) -f CMakeFiles/learn_cpp.dir/build.make CMakeFiles/learn_cpp.dir/basic/_test.cpp.i
-.PHONY : basic/_test.cpp.i
+basic/vector_test.cpp.i:
+	$(MAKE) -f CMakeFiles/learn_cpp.dir/build.make CMakeFiles/learn_cpp.dir/basic/vector_test.cpp.i
+.PHONY : basic/vector_test.cpp.i
 
-basic/_test.s: basic/_test.cpp.s
+basic/vector_test.s: basic/vector_test.cpp.s
 
-.PHONY : basic/_test.s
+.PHONY : basic/vector_test.s
 
 # target to generate assembly for a file
-basic/_test.cpp.s:
-	$(MAKE) -f CMakeFiles/learn_cpp.dir/build.make CMakeFiles/learn_cpp.dir/basic/_test.cpp.s
-.PHONY : basic/_test.cpp.s
+basic/vector_test.cpp.s:
+	$(MAKE) -f CMakeFiles/learn_cpp.dir/build.make CMakeFiles/learn_cpp.dir/basic/vector_test.cpp.s
+.PHONY : basic/vector_test.cpp.s
 
 # Help Target
 help:
@@ -265,9 +265,9 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... basic/_test.o"
-	@echo "... basic/_test.i"
-	@echo "... basic/_test.s"
+	@echo "... basic/vector_test.o"
+	@echo "... basic/vector_test.i"
+	@echo "... basic/vector_test.s"
 .PHONY : help
 
 

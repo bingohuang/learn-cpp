@@ -318,7 +318,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/bingo/CLionProjects/learn-cpp/basic/_test.cpp">
+		<Unit filename="/Users/bingo/CLionProjects/learn-cpp/basic/vector_test.cpp">
 			<Option target="learn_cpp"/>
 		</Unit>
 		<Unit filename="/Users/bingo/CLionProjects/learn-cpp/googletest/googlemock/src/gmock-all.cc">
