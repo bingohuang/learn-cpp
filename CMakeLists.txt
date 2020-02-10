@@ -20,6 +20,9 @@ add_executable(learn_cpp basic/_test.cpp)
 
 target_link_libraries(learn_cpp ${LIBRARIES})
 
+#add_test(Test learn_cpp)
+#enable_testing()
+
 # main
 #add_executable(learn-cpp main.cpp)
 #add_executable(learn-cpp imooc/vector/main.cpp)
