@@ -248,6 +248,33 @@ gmock/FooMain.cpp.s:
 	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/gmock/FooMain.cpp.s
 .PHONY : gmock/FooMain.cpp.s
 
+gmock/FooTest.o: gmock/FooTest.cpp.o
+
+.PHONY : gmock/FooTest.o
+
+# target to build an object file
+gmock/FooTest.cpp.o:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/gmock/FooTest.cpp.o
+.PHONY : gmock/FooTest.cpp.o
+
+gmock/FooTest.i: gmock/FooTest.cpp.i
+
+.PHONY : gmock/FooTest.i
+
+# target to preprocess a source file
+gmock/FooTest.cpp.i:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/gmock/FooTest.cpp.i
+.PHONY : gmock/FooTest.cpp.i
+
+gmock/FooTest.s: gmock/FooTest.cpp.s
+
+.PHONY : gmock/FooTest.s
+
+# target to generate assembly for a file
+gmock/FooTest.cpp.s:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/gmock/FooTest.cpp.s
+.PHONY : gmock/FooTest.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -268,6 +295,9 @@ help:
 	@echo "... gmock/FooMain.o"
 	@echo "... gmock/FooMain.i"
 	@echo "... gmock/FooMain.s"
+	@echo "... gmock/FooTest.o"
+	@echo "... gmock/FooTest.i"
+	@echo "... gmock/FooTest.s"
 .PHONY : help
 
 

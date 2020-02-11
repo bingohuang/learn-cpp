@@ -4,22 +4,7 @@
 
 #include <gmock/gmock.h>
 
-#include "FooMock.h"
-
-using namespace seamless;
-using namespace std;
-
-using ::testing::Return;
-
 int main(int argc, char** argv) {
-    ::testing::InitGoogleMock(&argc, argv);
-
-    string value = "Hello Bingo!";
-    MockFoo mockFoo;
-    EXPECT_CALL(mockFoo, getArbitraryString()).Times(1).
-            WillOnce(Return(value));
-    string returnValue = mockFoo.getArbitraryString();
-    cout << "Returned Value: " << returnValue << endl;
-
-    return EXIT_SUCCESS;
+    testing::InitGoogleMock(&argc, argv);
+    return RUN_ALL_TESTS();
 }

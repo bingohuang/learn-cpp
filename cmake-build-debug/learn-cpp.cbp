@@ -333,6 +333,9 @@
 		<Unit filename="/Users/bingo/CLionProjects/learn-cpp/gmock/FooMock.h">
 			<Option target="learn-cpp"/>
 		</Unit>
+		<Unit filename="/Users/bingo/CLionProjects/learn-cpp/gmock/FooTest.cpp">
+			<Option target="learn-cpp"/>
+		</Unit>
 		<Unit filename="/Users/bingo/CLionProjects/learn-cpp/googletest/googlemock/src/gmock-all.cc">
 			<Option target="gmock"/>
 		</Unit>

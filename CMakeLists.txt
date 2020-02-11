@@ -22,7 +22,7 @@ set(LIBRARIES
 #add_executable(learn-cpp basic/vector_test.cpp)
 
 # gmock
-add_executable(learn-cpp gmock/FooInterface.h gmock/FooMock.h gmock/FooMain.cpp)
+add_executable(learn-cpp gmock/FooInterface.h gmock/FooMock.h gmock/FooMain.cpp gmock/FooTest.cpp)
 #add_executable(learn-cpp gmock/FooInterface.h gmock/MockFoo.cpp)
 
 target_link_libraries(learn-cpp ${LIBRARIES})

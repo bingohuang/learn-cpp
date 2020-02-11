@@ -519,8 +519,6 @@ string
 /Users/bingo/CLionProjects/learn-cpp/gmock/FooMain.cpp
 gmock/gmock.h
 -
-FooMock.h
-/Users/bingo/CLionProjects/learn-cpp/gmock/FooMock.h
 
 /Users/bingo/CLionProjects/learn-cpp/gmock/FooMock.h
 gmock/gmock.h
@@ -529,4 +527,10 @@ string
 -
 FooInterface.h
 /Users/bingo/CLionProjects/learn-cpp/gmock/FooInterface.h
+
+/Users/bingo/CLionProjects/learn-cpp/gmock/FooTest.cpp
+gmock/gmock.h
+-
+FooMock.h
+/Users/bingo/CLionProjects/learn-cpp/gmock/FooMock.h
 

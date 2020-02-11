@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/learn-cpp.dir/gmock/FooMain.cpp.o"
+  "CMakeFiles/learn-cpp.dir/gmock/FooTest.cpp.o"
   "learn-cpp"
   "learn-cpp.pdb"
 )
