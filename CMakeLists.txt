@@ -6,18 +6,23 @@ set(CMAKE_CXX_STANDARD 14)
 add_subdirectory(./googletest)
 
 # 将用于google test的头文件gtest.h添加到include路径中
-include_directories(./googletest/include)
+include_directories(./googletest/googletest/include)
+include_directories(./googletest/googlemock/include)
 # 将libtest.a添加到链接路径中（同时需要添加googletest运行需要的pthread）
 link_directories(./googletest)
 
 set(LIBRARIES
         gtest
+        gmock
         pthread)
 
 # test
 #add_executable(learn_cpp test.cpp)
 #add_executable(learn_cpp basic/_test.cpp)
-add_executable(learn-cpp basic/vector_test.cpp)
+#add_executable(learn-cpp basic/vector_test.cpp)
+
+add_executable(learn-cpp gmock/FooInterface.h gmock/FooMock.h gmock/FooMain.cpp)
+#add_executable(learn-cpp gmock/FooInterface.h gmock/MockFoo.cpp)
 
 target_link_libraries(learn-cpp ${LIBRARIES})
 

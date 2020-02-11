@@ -221,32 +221,32 @@ gtest/fast:
 	$(MAKE) -f googletest/googletest/CMakeFiles/gtest.dir/build.make googletest/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
-basic/vector_test.o: basic/vector_test.cpp.o
+gmock/FooMain.o: gmock/FooMain.cpp.o
 
-.PHONY : basic/vector_test.o
+.PHONY : gmock/FooMain.o
 
 # target to build an object file
-basic/vector_test.cpp.o:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/vector_test.cpp.o
-.PHONY : basic/vector_test.cpp.o
+gmock/FooMain.cpp.o:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/gmock/FooMain.cpp.o
+.PHONY : gmock/FooMain.cpp.o
 
-basic/vector_test.i: basic/vector_test.cpp.i
+gmock/FooMain.i: gmock/FooMain.cpp.i
 
-.PHONY : basic/vector_test.i
+.PHONY : gmock/FooMain.i
 
 # target to preprocess a source file
-basic/vector_test.cpp.i:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/vector_test.cpp.i
-.PHONY : basic/vector_test.cpp.i
+gmock/FooMain.cpp.i:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/gmock/FooMain.cpp.i
+.PHONY : gmock/FooMain.cpp.i
 
-basic/vector_test.s: basic/vector_test.cpp.s
+gmock/FooMain.s: gmock/FooMain.cpp.s
 
-.PHONY : basic/vector_test.s
+.PHONY : gmock/FooMain.s
 
 # target to generate assembly for a file
-basic/vector_test.cpp.s:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/vector_test.cpp.s
-.PHONY : basic/vector_test.cpp.s
+gmock/FooMain.cpp.s:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/gmock/FooMain.cpp.s
+.PHONY : gmock/FooMain.cpp.s
 
 # Help Target
 help:
@@ -265,9 +265,9 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... basic/vector_test.o"
-	@echo "... basic/vector_test.i"
-	@echo "... basic/vector_test.s"
+	@echo "... gmock/FooMain.o"
+	@echo "... gmock/FooMain.i"
+	@echo "... gmock/FooMain.s"
 .PHONY : help
 
 

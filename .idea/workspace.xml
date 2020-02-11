@@ -2,11 +2,11 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="learn_cpp" targetName="gtest_main" />
-      <config projectName="learn_cpp" targetName="gtest" />
-      <config projectName="learn_cpp" targetName="learn_cpp" />
-      <config projectName="learn_cpp" targetName="gmock" />
-      <config projectName="learn_cpp" targetName="gmock_main" />
+      <config projectName="learn-cpp" targetName="learn-cpp" />
+      <config projectName="learn-cpp" targetName="gtest_main" />
+      <config projectName="learn-cpp" targetName="gmock" />
+      <config projectName="learn-cpp" targetName="gtest" />
+      <config projectName="learn-cpp" targetName="gmock_main" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -15,9 +15,24 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4ab7813-78ea-4156-849b-bb7557bef782" name="Default Changelist" comment="">
+    <list default="true" id="a4ab7813-78ea-4156-849b-bb7557bef782" name="Default Changelist" comment="update basic/vector_test.cpp">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/vector_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/basic/vector_test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/googletest/googlemock/CMakeFiles/gmock.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learn-cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/learn-cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learn-cpp.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/learn-cpp.cbp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +120,7 @@
       <updated>1580899598016</updated>
       <workItem from="1580899601204" duration="48000" />
       <workItem from="1580899686354" duration="8456000" />
-      <workItem from="1581322161539" duration="4515000" />
+      <workItem from="1581322161539" duration="6398000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1580899963217</created>
@@ -247,7 +262,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581328550405</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="update basic/vector_test.cpp">
+      <created>1581329011557</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1581329011557</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +309,8 @@
     <MESSAGE value="add basic/_test.cpp" />
     <MESSAGE value="update basic/_test.cpp" />
     <MESSAGE value="add basic/vector_test.cpp" />
-    <option name="LAST_COMMIT_MESSAGE" value="add basic/vector_test.cpp" />
+    <MESSAGE value="update basic/vector_test.cpp" />
+    <option name="LAST_COMMIT_MESSAGE" value="update basic/vector_test.cpp" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581327386840">
@@ -298,30 +321,30 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="429" y="183" width="582" height="543" key="#test.c1/0.0.1440.900@0.0.1440.900" timestamp="1581326074289" />
-    <state x="289" y="105" width="1070" height="795" key="CommitChangelistDialog2" timestamp="1581328550137">
+    <state x="289" y="105" width="1070" height="795" key="CommitChangelistDialog2" timestamp="1581329011338">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="289" y="105" width="1070" height="795" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581328550137" />
+    <state x="289" y="105" width="1070" height="795" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581329011338" />
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1581325041179">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1581325041179" />
-    <state width="671" height="237" key="GridCell.Tab.0.bottom" timestamp="1581328989835">
+    <state width="582" height="237" key="GridCell.Tab.0.bottom" timestamp="1581391771513">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="671" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581328989835" />
-    <state width="671" height="237" key="GridCell.Tab.0.center" timestamp="1581328989834">
+    <state width="582" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581391771513" />
+    <state width="582" height="237" key="GridCell.Tab.0.center" timestamp="1581391771512">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="671" height="237" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581328989834" />
-    <state width="671" height="237" key="GridCell.Tab.0.left" timestamp="1581328989833">
+    <state width="582" height="237" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581391771512" />
+    <state width="582" height="237" key="GridCell.Tab.0.left" timestamp="1581391771511">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="671" height="237" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581328989833" />
-    <state width="671" height="237" key="GridCell.Tab.0.right" timestamp="1581328989835">
+    <state width="582" height="237" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581391771511" />
+    <state width="582" height="237" key="GridCell.Tab.0.right" timestamp="1581391771512">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="671" height="237" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581328989835" />
+    <state width="582" height="237" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581391771512" />
     <state width="699" height="294" key="GridCell.Tab.1.bottom" timestamp="1581326198111">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

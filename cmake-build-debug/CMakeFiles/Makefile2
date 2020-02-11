@@ -73,6 +73,7 @@ preinstall: googletest/preinstall
 # Target rules for target CMakeFiles/learn-cpp.dir
 
 # All Build rule for target.
+CMakeFiles/learn-cpp.dir/all: googletest/googlemock/CMakeFiles/gmock.dir/all
 CMakeFiles/learn-cpp.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/depend
 	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/build
@@ -81,7 +82,7 @@ CMakeFiles/learn-cpp.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/learn-cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bingo/CLionProjects/learn-cpp/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bingo/CLionProjects/learn-cpp/cmake-build-debug/CMakeFiles 6
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/learn-cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/bingo/CLionProjects/learn-cpp/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/learn-cpp.dir/rule
