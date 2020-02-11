@@ -16,11 +16,12 @@ set(LIBRARIES
         gmock
         pthread)
 
-# test
+# gtest
 #add_executable(learn_cpp test.cpp)
 #add_executable(learn_cpp basic/_test.cpp)
 #add_executable(learn-cpp basic/vector_test.cpp)
 
+# gmock
 add_executable(learn-cpp gmock/FooInterface.h gmock/FooMock.h gmock/FooMain.cpp)
 #add_executable(learn-cpp gmock/FooInterface.h gmock/MockFoo.cpp)
 
@@ -29,7 +30,7 @@ target_link_libraries(learn-cpp ${LIBRARIES})
 #add_test(Test learn_cpp)
 #enable_testing()
 
-# main
+# basic
 #add_executable(learn-cpp main.cpp)
 #add_executable(learn-cpp imooc/vector/main.cpp)
 #add_executable(learn-cpp jike/incdec/main.cpp)

@@ -2,11 +2,7 @@
 // Created by BingoHuang on 2020/2/11.
 //
 
-#include <cstdlib>
 #include <gmock/gmock.h>
-#include <gtest/gtest.h>
-#include <iostream>
-#include <string>
 
 #include "FooMock.h"
 
@@ -18,7 +14,7 @@ using ::testing::Return;
 int main(int argc, char** argv) {
     ::testing::InitGoogleMock(&argc, argv);
 
-    string value = "Hello World!";
+    string value = "Hello Bingo!";
     MockFoo mockFoo;
     EXPECT_CALL(mockFoo, getArbitraryString()).Times(1).
             WillOnce(Return(value));

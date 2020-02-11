@@ -517,15 +517,7 @@ string
 -
 
 /Users/bingo/CLionProjects/learn-cpp/gmock/FooMain.cpp
-cstdlib
--
 gmock/gmock.h
--
-gtest/gtest.h
--
-iostream
--
-string
 -
 FooMock.h
 /Users/bingo/CLionProjects/learn-cpp/gmock/FooMock.h
