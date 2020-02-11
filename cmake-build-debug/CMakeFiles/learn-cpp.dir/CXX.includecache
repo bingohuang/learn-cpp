@@ -516,10 +516,6 @@ acxx_demangle.h
 string
 -
 
-/Users/bingo/CLionProjects/learn-cpp/gmock/FooMain.cpp
-gmock/gmock.h
--
-
 /Users/bingo/CLionProjects/learn-cpp/gmock/FooMock.h
 gmock/gmock.h
 -

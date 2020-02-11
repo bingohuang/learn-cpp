@@ -33,5 +33,15 @@ TEST(FooTest, TestSetDoubleValues)
     MockFoo mockFoo;
     EXPECT_CALL(mockFoo, setDoubleValues(testing::Eq(1), testing::Ge(1)));
     mockFoo.setDoubleValues(1, 1);
-    //mockFoo.setDoubleValues(1, 0); //error
+//    mockFoo.setDoubleValues(1, 0); //error
+}
+
+TEST(FooTest, TestDoAll) {
+    MockFoo mockFoo;
+    std::string* a = new std::string("yes");
+    std::string* b = new std::string("hello");
+    EXPECT_CALL(mockFoo, getParameter(testing::_, testing::_)).Times(1).
+        WillOnce(testing::DoAll(testing::Assign(&a, b), testing::Return(1)));
+
+    cout << "Return Value: " << mockFoo.getParameter(a, b) << endl;
 }

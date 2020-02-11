@@ -17,20 +17,11 @@
   <component name="ChangeListManager">
     <list default="true" id="a4ab7813-78ea-4156-849b-bb7557bef782" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/learn-cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/learn-cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learn-cpp.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/learn-cpp.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gmock/FooInterface.h" beforeDir="false" afterPath="$PROJECT_DIR$/gmock/FooInterface.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmock/FooMain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/gmock/FooMain.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gmock/FooMock.h" beforeDir="false" afterPath="$PROJECT_DIR$/gmock/FooMock.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmock/FooTest.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/gmock/FooTest.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +68,12 @@
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.learn-cpp">
+    <configuration name="FooTest.TestDoAll" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="learn-cpp" TARGET_NAME="learn-cpp" RUN_TARGET_PROJECT_NAME="learn-cpp" RUN_TARGET_NAME="learn-cpp" TEST_CLASS="FooTest" TEST_METHOD="TestDoAll" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FooTest.TestSetValues" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="learn-cpp" TARGET_NAME="learn-cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="learn-cpp" RUN_TARGET_NAME="learn-cpp" TEST_CLASS="FooTest" TEST_METHOD="TestSetValues" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -105,9 +102,11 @@
       <item itemvalue="Google Test.sizeof_test.c2" />
       <item itemvalue="Google Test.vector_test.Sum" />
       <item itemvalue="Google Test.FooTest.TestSetValues" />
+      <item itemvalue="Google Test.FooTest.TestDoAll" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Google Test.FooTest.TestDoAll" />
         <item itemvalue="Google Test.FooTest.TestSetValues" />
         <item itemvalue="Google Test.vector_test.Sum" />
         <item itemvalue="Google Test.sizeof_test.c2" />
@@ -126,7 +125,7 @@
       <updated>1580899598016</updated>
       <workItem from="1580899601204" duration="48000" />
       <workItem from="1580899686354" duration="8456000" />
-      <workItem from="1581322161539" duration="7576000" />
+      <workItem from="1581322161539" duration="9110000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1580899963217</created>
@@ -289,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581393834266</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="add FooTest">
+      <created>1581394215089</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1581394215089</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +338,8 @@
     <MESSAGE value="update basic/vector_test.cpp" />
     <MESSAGE value="add gmock demo" />
     <MESSAGE value="update gmock demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="update gmock demo" />
+    <MESSAGE value="add FooTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="add FooTest" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581327386840">
@@ -343,30 +350,30 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="429" y="183" width="582" height="543" key="#test.c1/0.0.1440.900@0.0.1440.900" timestamp="1581326074289" />
-    <state x="289" y="105" width="1070" height="795" key="CommitChangelistDialog2" timestamp="1581393834012">
+    <state x="289" y="105" width="1070" height="795" key="CommitChangelistDialog2" timestamp="1581394214807">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="289" y="105" width="1070" height="795" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581393834012" />
+    <state x="289" y="105" width="1070" height="795" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581394214807" />
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1581325041179">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1581325041179" />
-    <state width="801" height="237" key="GridCell.Tab.0.bottom" timestamp="1581394174377">
+    <state width="821" height="237" key="GridCell.Tab.0.bottom" timestamp="1581412123805">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="801" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581394174377" />
-    <state width="801" height="237" key="GridCell.Tab.0.center" timestamp="1581394174375">
+    <state width="821" height="237" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581412123805" />
+    <state width="821" height="237" key="GridCell.Tab.0.center" timestamp="1581412123802">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="801" height="237" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581394174375" />
-    <state width="801" height="237" key="GridCell.Tab.0.left" timestamp="1581394174374">
+    <state width="821" height="237" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581412123802" />
+    <state width="821" height="237" key="GridCell.Tab.0.left" timestamp="1581412123801">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="801" height="237" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581394174374" />
-    <state width="801" height="237" key="GridCell.Tab.0.right" timestamp="1581394174376">
+    <state width="821" height="237" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581412123801" />
+    <state width="821" height="237" key="GridCell.Tab.0.right" timestamp="1581412123803">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="801" height="237" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581394174376" />
+    <state width="821" height="237" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581412123803" />
     <state width="699" height="294" key="GridCell.Tab.1.bottom" timestamp="1581326198111">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
