@@ -3,7 +3,6 @@
 //
 
 #include <gtest/gtest.h>
-//#include <gmock/gmock.h>
 #include <vector>
 
 class VectorTest : public testing::Test
@@ -16,9 +15,9 @@ protected:
         vec.push_back(2);
         vec.push_back(3);
     }
-    virtual void TearDown() override {
-        vec.clear();
-    }
+//    virtual void TearDown() override {
+//        vec.clear();
+//    }
 
     std::vector<int> vec;
 };
@@ -29,7 +28,14 @@ TEST_F(VectorTest, PushBack)
     // 虽然这里修改了 vec，但对其它测试函数来说是不可见的
     vec.push_back(4);
     EXPECT_EQ(vec.size(), 4);
-    EXPECT_EQ(vec.back(), 4);
+//    EXPECT_EQ(vec.back(), 4);
+
+    // 这里注意EXPECT和ASSERT的差别
+//    EXPECT_EQ(vec.back(), 3);
+    ASSERT_EQ(vec.back(), 3);
+
+    vec.push_back(5);
+    EXPECT_EQ(vec.size(), 4);
 }
 
 TEST_F(VectorTest, Size)
@@ -37,7 +43,7 @@ TEST_F(VectorTest, Size)
     EXPECT_EQ(vec.size(), 3);
 }
 
-int main(int argc, char *argv[])
+GTEST_API_ int main(int argc, char *argv[])
 {
     ::testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();

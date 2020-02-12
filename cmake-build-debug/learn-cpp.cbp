@@ -324,18 +324,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/bingo/CLionProjects/learn-cpp/gmock/FooInterface.h">
-			<Option target="learn-cpp"/>
-		</Unit>
-		<Unit filename="/Users/bingo/CLionProjects/learn-cpp/gmock/FooMain.cpp">
-			<Option target="learn-cpp"/>
-		</Unit>
-		<Unit filename="/Users/bingo/CLionProjects/learn-cpp/gmock/FooMock.h">
-			<Option target="learn-cpp"/>
-		</Unit>
-		<Unit filename="/Users/bingo/CLionProjects/learn-cpp/gmock/FooTest.cpp">
-			<Option target="learn-cpp"/>
-		</Unit>
 		<Unit filename="/Users/bingo/CLionProjects/learn-cpp/googletest/googlemock/src/gmock-all.cc">
 			<Option target="gmock"/>
 		</Unit>
@@ -347,6 +335,9 @@
 		</Unit>
 		<Unit filename="/Users/bingo/CLionProjects/learn-cpp/googletest/googletest/src/gtest_main.cc">
 			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/Users/bingo/CLionProjects/learn-cpp/gtest/vector_test.cpp">
+			<Option target="learn-cpp"/>
 		</Unit>
 		<Unit filename="/Users/bingo/CLionProjects/learn-cpp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
