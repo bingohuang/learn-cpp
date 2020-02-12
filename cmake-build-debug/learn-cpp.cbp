@@ -324,10 +324,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/bingo/CLionProjects/learn-cpp/gmock/demo1/FooInterface.h">
+		<Unit filename="/Users/bingo/CLionProjects/learn-cpp/gmock/demo2/FooInterface.h">
 			<Option target="learn-cpp"/>
 		</Unit>
-		<Unit filename="/Users/bingo/CLionProjects/learn-cpp/gmock/demo1/MockFoo.cpp">
+		<Unit filename="/Users/bingo/CLionProjects/learn-cpp/gmock/demo2/FooMain.cpp">
+			<Option target="learn-cpp"/>
+		</Unit>
+		<Unit filename="/Users/bingo/CLionProjects/learn-cpp/gmock/demo2/FooMock.h">
+			<Option target="learn-cpp"/>
+		</Unit>
+		<Unit filename="/Users/bingo/CLionProjects/learn-cpp/gmock/demo2/FooTest.cpp">
 			<Option target="learn-cpp"/>
 		</Unit>
 		<Unit filename="/Users/bingo/CLionProjects/learn-cpp/googletest/googlemock/src/gmock-all.cc">

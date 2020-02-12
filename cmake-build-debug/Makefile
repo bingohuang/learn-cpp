@@ -221,32 +221,59 @@ gtest/fast:
 	$(MAKE) -f googletest/googletest/CMakeFiles/gtest.dir/build.make googletest/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
-gmock/demo1/MockFoo.o: gmock/demo1/MockFoo.cpp.o
+gmock/demo2/FooMain.o: gmock/demo2/FooMain.cpp.o
 
-.PHONY : gmock/demo1/MockFoo.o
+.PHONY : gmock/demo2/FooMain.o
 
 # target to build an object file
-gmock/demo1/MockFoo.cpp.o:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/gmock/demo1/MockFoo.cpp.o
-.PHONY : gmock/demo1/MockFoo.cpp.o
+gmock/demo2/FooMain.cpp.o:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/gmock/demo2/FooMain.cpp.o
+.PHONY : gmock/demo2/FooMain.cpp.o
 
-gmock/demo1/MockFoo.i: gmock/demo1/MockFoo.cpp.i
+gmock/demo2/FooMain.i: gmock/demo2/FooMain.cpp.i
 
-.PHONY : gmock/demo1/MockFoo.i
+.PHONY : gmock/demo2/FooMain.i
 
 # target to preprocess a source file
-gmock/demo1/MockFoo.cpp.i:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/gmock/demo1/MockFoo.cpp.i
-.PHONY : gmock/demo1/MockFoo.cpp.i
+gmock/demo2/FooMain.cpp.i:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/gmock/demo2/FooMain.cpp.i
+.PHONY : gmock/demo2/FooMain.cpp.i
 
-gmock/demo1/MockFoo.s: gmock/demo1/MockFoo.cpp.s
+gmock/demo2/FooMain.s: gmock/demo2/FooMain.cpp.s
 
-.PHONY : gmock/demo1/MockFoo.s
+.PHONY : gmock/demo2/FooMain.s
 
 # target to generate assembly for a file
-gmock/demo1/MockFoo.cpp.s:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/gmock/demo1/MockFoo.cpp.s
-.PHONY : gmock/demo1/MockFoo.cpp.s
+gmock/demo2/FooMain.cpp.s:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/gmock/demo2/FooMain.cpp.s
+.PHONY : gmock/demo2/FooMain.cpp.s
+
+gmock/demo2/FooTest.o: gmock/demo2/FooTest.cpp.o
+
+.PHONY : gmock/demo2/FooTest.o
+
+# target to build an object file
+gmock/demo2/FooTest.cpp.o:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/gmock/demo2/FooTest.cpp.o
+.PHONY : gmock/demo2/FooTest.cpp.o
+
+gmock/demo2/FooTest.i: gmock/demo2/FooTest.cpp.i
+
+.PHONY : gmock/demo2/FooTest.i
+
+# target to preprocess a source file
+gmock/demo2/FooTest.cpp.i:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/gmock/demo2/FooTest.cpp.i
+.PHONY : gmock/demo2/FooTest.cpp.i
+
+gmock/demo2/FooTest.s: gmock/demo2/FooTest.cpp.s
+
+.PHONY : gmock/demo2/FooTest.s
+
+# target to generate assembly for a file
+gmock/demo2/FooTest.cpp.s:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/gmock/demo2/FooTest.cpp.s
+.PHONY : gmock/demo2/FooTest.cpp.s
 
 # Help Target
 help:
@@ -265,9 +292,12 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... gmock/demo1/MockFoo.o"
-	@echo "... gmock/demo1/MockFoo.i"
-	@echo "... gmock/demo1/MockFoo.s"
+	@echo "... gmock/demo2/FooMain.o"
+	@echo "... gmock/demo2/FooMain.i"
+	@echo "... gmock/demo2/FooMain.s"
+	@echo "... gmock/demo2/FooTest.o"
+	@echo "... gmock/demo2/FooTest.i"
+	@echo "... gmock/demo2/FooTest.s"
 .PHONY : help
 
 

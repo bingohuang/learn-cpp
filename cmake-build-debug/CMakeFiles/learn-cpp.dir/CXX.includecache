@@ -512,21 +512,21 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/Users/bingo/CLionProjects/learn-cpp/gmock/demo1/FooInterface.h
+/Users/bingo/CLionProjects/learn-cpp/gmock/demo2/FooInterface.h
 string
 -
 
-/Users/bingo/CLionProjects/learn-cpp/gmock/demo1/MockFoo.cpp
-cstdlib
--
+/Users/bingo/CLionProjects/learn-cpp/gmock/demo2/FooMock.h
 gmock/gmock.h
--
-gtest/gtest.h
--
-iostream
 -
 string
 -
 FooInterface.h
-/Users/bingo/CLionProjects/learn-cpp/gmock/demo1/FooInterface.h
+/Users/bingo/CLionProjects/learn-cpp/gmock/demo2/FooInterface.h
+
+/Users/bingo/CLionProjects/learn-cpp/gmock/demo2/FooTest.cpp
+gmock/gmock.h
+-
+FooMock.h
+/Users/bingo/CLionProjects/learn-cpp/gmock/demo2/FooMock.h
 

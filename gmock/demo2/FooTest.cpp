@@ -39,11 +39,20 @@ TEST(FooTest, TestSetDoubleValues)
 TEST(FooTest, TestDoAll) {
     MockFoo mockFoo;
     std::string* a = new std::string("yes");
-    std::string* b = new std::string("hello");
+    std::string* b = new std::string("no");
+    cout << "a: " << &a << endl;
+    cout << "b: " << &b << endl;
+    cout << "a: " << *a << endl;
+    cout << "b: " << *b << endl;
     EXPECT_CALL(mockFoo, getParameter(testing::_, testing::_)).Times(1).
         WillOnce(testing::DoAll(testing::Assign(&a, b), testing::Return(1)));
 
-    cout << "Return Value: " << mockFoo.getParameter(a, b) << endl;
+    int r = mockFoo.getParameter(a, b);
+    cout << "a: " << &a << endl;
+    cout << "b: " << &b << endl;
+    cout << "a: " << *a << endl;
+    cout << "b: " << *b << endl;
+    cout << "Return Value: " << r << endl;
 }
 
 TEST(FooTest, TestSequences) {

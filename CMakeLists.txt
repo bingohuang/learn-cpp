@@ -22,8 +22,8 @@ set(LIBRARIES
 #add_executable(learn-cpp gtest/vector_test.cpp)
 
 # gmock
-add_executable(learn-cpp gmock/demo1/FooInterface.h gmock/demo1/MockFoo.cpp)
-#add_executable(learn-cpp gmock/FooInterface.h gmock/FooMock.h gmock/FooMain.cpp gmock/FooTest.cpp)
+#add_executable(learn-cpp gmock/demo1/FooInterface.h gmock/demo1/MockFoo.cpp)
+add_executable(learn-cpp gmock/demo2/FooInterface.h gmock/demo2/FooMock.h gmock/demo2/FooMain.cpp gmock/demo2/FooTest.cpp)
 
 target_link_libraries(learn-cpp ${LIBRARIES})
 #add_test(Test learn_cpp)

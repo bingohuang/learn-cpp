@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/bingo/CLionProjects/learn-cpp/gmock/demo1/MockFoo.cpp" "/Users/bingo/CLionProjects/learn-cpp/cmake-build-debug/CMakeFiles/learn-cpp.dir/gmock/demo1/MockFoo.cpp.o"
+  "/Users/bingo/CLionProjects/learn-cpp/gmock/demo2/FooMain.cpp" "/Users/bingo/CLionProjects/learn-cpp/cmake-build-debug/CMakeFiles/learn-cpp.dir/gmock/demo2/FooMain.cpp.o"
+  "/Users/bingo/CLionProjects/learn-cpp/gmock/demo2/FooTest.cpp" "/Users/bingo/CLionProjects/learn-cpp/cmake-build-debug/CMakeFiles/learn-cpp.dir/gmock/demo2/FooTest.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
