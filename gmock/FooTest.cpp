@@ -45,3 +45,27 @@ TEST(FooTest, TestDoAll) {
 
     cout << "Return Value: " << mockFoo.getParameter(a, b) << endl;
 }
+
+TEST(FooTest, TestSequences) {
+    testing::Sequence s1, s2;
+    MockFoo mockFoo;
+    EXPECT_CALL(mockFoo, getSize()).InSequence(s1, s2).WillOnce(testing::Return(1));
+    EXPECT_CALL(mockFoo, getValue()).InSequence(s2).WillOnce(testing::Return(
+            string("Hello World!")));
+    cout << "\nFirst:\t" << mockFoo.getSize() << endl;
+    cout << "Second:\t" << mockFoo.getValue() << endl;
+//    cout << "\nSecond:\t" << mockFoo.getValue() << endl;
+//    cout << "First:\t" << mockFoo.getSize() << endl;
+}
+
+TEST(FooTest, TestSequences2) {
+    testing::InSequence dummy;
+    MockFoo mockFoo;
+    EXPECT_CALL(mockFoo, getSize()).WillOnce(testing::Return(1));
+    EXPECT_CALL(mockFoo, getValue()).WillOnce(testing::Return(string("Hello World")));
+
+    cout << "\nFirst:\t" << mockFoo.getSize() << endl;
+    cout << "Second:\t" << mockFoo.getValue() << endl;
+//    cout << "\nSecond:\t" << mockFoo.getValue() << endl;
+//    cout << "First:\t" << mockFoo.getSize() << endl;
+}

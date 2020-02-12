@@ -23,6 +23,8 @@ namespace seamless {
         MOCK_METHOD1(setValue, void(std::string& value));
         MOCK_METHOD2(setDoubleValues, void(int x, int y));
         MOCK_METHOD2(getParameter, int(std::string* name, std::string* value));
+        MOCK_METHOD0(getSize, int());
+        MOCK_METHOD0(getValue, std::string());
     };
 
 }  // namespace seamless
