@@ -221,32 +221,32 @@ gtest/fast:
 	$(MAKE) -f googletest/googletest/CMakeFiles/gtest.dir/build.make googletest/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
-gtest/vector_test.o: gtest/vector_test.cpp.o
+gmock/demo1/MockFoo.o: gmock/demo1/MockFoo.cpp.o
 
-.PHONY : gtest/vector_test.o
+.PHONY : gmock/demo1/MockFoo.o
 
 # target to build an object file
-gtest/vector_test.cpp.o:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/gtest/vector_test.cpp.o
-.PHONY : gtest/vector_test.cpp.o
+gmock/demo1/MockFoo.cpp.o:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/gmock/demo1/MockFoo.cpp.o
+.PHONY : gmock/demo1/MockFoo.cpp.o
 
-gtest/vector_test.i: gtest/vector_test.cpp.i
+gmock/demo1/MockFoo.i: gmock/demo1/MockFoo.cpp.i
 
-.PHONY : gtest/vector_test.i
+.PHONY : gmock/demo1/MockFoo.i
 
 # target to preprocess a source file
-gtest/vector_test.cpp.i:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/gtest/vector_test.cpp.i
-.PHONY : gtest/vector_test.cpp.i
+gmock/demo1/MockFoo.cpp.i:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/gmock/demo1/MockFoo.cpp.i
+.PHONY : gmock/demo1/MockFoo.cpp.i
 
-gtest/vector_test.s: gtest/vector_test.cpp.s
+gmock/demo1/MockFoo.s: gmock/demo1/MockFoo.cpp.s
 
-.PHONY : gtest/vector_test.s
+.PHONY : gmock/demo1/MockFoo.s
 
 # target to generate assembly for a file
-gtest/vector_test.cpp.s:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/gtest/vector_test.cpp.s
-.PHONY : gtest/vector_test.cpp.s
+gmock/demo1/MockFoo.cpp.s:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/gmock/demo1/MockFoo.cpp.s
+.PHONY : gmock/demo1/MockFoo.cpp.s
 
 # Help Target
 help:
@@ -265,9 +265,9 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... gtest/vector_test.o"
-	@echo "... gtest/vector_test.i"
-	@echo "... gtest/vector_test.s"
+	@echo "... gmock/demo1/MockFoo.o"
+	@echo "... gmock/demo1/MockFoo.i"
+	@echo "... gmock/demo1/MockFoo.s"
 .PHONY : help
 
 

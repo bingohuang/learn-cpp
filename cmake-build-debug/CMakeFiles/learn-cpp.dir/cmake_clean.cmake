@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/learn-cpp.dir/gtest/vector_test.cpp.o"
+  "CMakeFiles/learn-cpp.dir/gmock/demo1/MockFoo.cpp.o"
   "learn-cpp"
   "learn-cpp.pdb"
 )

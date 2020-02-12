@@ -18,8 +18,6 @@
     <list default="true" id="a4ab7813-78ea-4156-849b-bb7557bef782" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/vector_test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/gtest/vector_test.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/DependInfo.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/build.make" afterDir="false" />
@@ -27,11 +25,9 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/depend.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/learn-cpp.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/learn-cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/learn-cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/learn-cpp.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/learn-cpp.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmock/MockFoo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/gmock/demo1/MockFoo.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,14 +61,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.advertisement.text.has.clang-format" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gmock/demo1" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gmock/demo1" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gmock/demo1" />
       <recent name="$PROJECT_DIR$/gtest" />
       <recent name="$PROJECT_DIR$/imooc/vector" />
       <recent name="$PROJECT_DIR$/jike/incdec" />
@@ -103,7 +101,7 @@
         <option name="BeforeTestRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VectorTest.PushBack" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="learn-cpp" TARGET_NAME="learn-cpp" RUN_TARGET_PROJECT_NAME="learn-cpp" RUN_TARGET_NAME="learn-cpp" TEST_CLASS="VectorTest" TEST_METHOD="PushBack" TEST_MODE="SUITE_TEST">
+    <configuration name="VectorTest.PushBack" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="learn-cpp" TARGET_NAME="learn-cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="learn-cpp" RUN_TARGET_NAME="learn-cpp" TEST_CLASS="VectorTest" TEST_METHOD="PushBack" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -144,7 +142,7 @@
       <updated>1580899598016</updated>
       <workItem from="1580899601204" duration="48000" />
       <workItem from="1580899686354" duration="8456000" />
-      <workItem from="1581322161539" duration="11015000" />
+      <workItem from="1581322161539" duration="11590000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1580899963217</created>
@@ -328,7 +326,14 @@
       <option name="project" value="LOCAL" />
       <updated>1581493120568</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="update gtest">
+      <created>1581494721158</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1581494721158</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -374,7 +379,8 @@
     <MESSAGE value="add FooTest" />
     <MESSAGE value="add getParameter for testing DoAll" />
     <MESSAGE value="add TestSequences" />
-    <option name="LAST_COMMIT_MESSAGE" value="add TestSequences" />
+    <MESSAGE value="update gtest" />
+    <option name="LAST_COMMIT_MESSAGE" value="update gtest" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581327386840">
@@ -385,30 +391,30 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="429" y="183" width="582" height="543" key="#test.c1/0.0.1440.900@0.0.1440.900" timestamp="1581326074289" />
-    <state x="289" y="105" width="1070" height="795" key="CommitChangelistDialog2" timestamp="1581493120222">
+    <state x="289" y="105" width="1070" height="795" key="CommitChangelistDialog2" timestamp="1581494720910">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="289" y="105" width="1070" height="795" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581493120222" />
+    <state x="289" y="105" width="1070" height="795" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1581494720910" />
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog" timestamp="1581325041179">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="100" y="100" width="1240" height="700" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1581325041179" />
-    <state width="821" height="318" key="GridCell.Tab.0.bottom" timestamp="1581494575730">
+    <state width="656" height="318" key="GridCell.Tab.0.bottom" timestamp="1581495378468">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="821" height="318" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581494575730" />
-    <state width="821" height="318" key="GridCell.Tab.0.center" timestamp="1581494575728">
+    <state width="656" height="318" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581495378468" />
+    <state width="656" height="318" key="GridCell.Tab.0.center" timestamp="1581495378467">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="821" height="318" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581494575728" />
-    <state width="821" height="318" key="GridCell.Tab.0.left" timestamp="1581494575727">
+    <state width="656" height="318" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581495378467" />
+    <state width="656" height="318" key="GridCell.Tab.0.left" timestamp="1581495378466">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="821" height="318" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581494575727" />
-    <state width="821" height="318" key="GridCell.Tab.0.right" timestamp="1581494575728">
+    <state width="656" height="318" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581495378466" />
+    <state width="656" height="318" key="GridCell.Tab.0.right" timestamp="1581495378467">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="821" height="318" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581494575728" />
+    <state width="656" height="318" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581495378467" />
     <state width="699" height="294" key="GridCell.Tab.1.bottom" timestamp="1581326198111">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -433,10 +439,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1581046089733" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1581328753337">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1581494726808">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1581328753337" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1581494726808" />
     <state x="399" y="294" key="com.intellij.ide.util.TipDialog" timestamp="1580899603608">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
