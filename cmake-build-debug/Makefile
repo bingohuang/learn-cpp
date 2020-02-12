@@ -56,6 +56,52 @@ CMAKE_BINARY_DIR = /Users/bingo/CLionProjects/learn-cpp/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -123,32 +169,111 @@ learn-cpp/fast:
 	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/build
 .PHONY : learn-cpp/fast
 
-basic/vector.o: basic/vector.cpp.o
+#=============================================================================
+# Target rules for targets named gmock
 
-.PHONY : basic/vector.o
+# Build rule for target.
+gmock: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gmock
+.PHONY : gmock
+
+# fast build rule for target.
+gmock/fast:
+	$(MAKE) -f include/googletest/googlemock/CMakeFiles/gmock.dir/build.make include/googletest/googlemock/CMakeFiles/gmock.dir/build
+.PHONY : gmock/fast
+
+#=============================================================================
+# Target rules for targets named gmock_main
+
+# Build rule for target.
+gmock_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gmock_main
+.PHONY : gmock_main
+
+# fast build rule for target.
+gmock_main/fast:
+	$(MAKE) -f include/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make include/googletest/googlemock/CMakeFiles/gmock_main.dir/build
+.PHONY : gmock_main/fast
+
+#=============================================================================
+# Target rules for targets named gtest_main
+
+# Build rule for target.
+gtest_main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest_main
+.PHONY : gtest_main
+
+# fast build rule for target.
+gtest_main/fast:
+	$(MAKE) -f include/googletest/googletest/CMakeFiles/gtest_main.dir/build.make include/googletest/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : gtest_main/fast
+
+#=============================================================================
+# Target rules for targets named gtest
+
+# Build rule for target.
+gtest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 gtest
+.PHONY : gtest
+
+# fast build rule for target.
+gtest/fast:
+	$(MAKE) -f include/googletest/googletest/CMakeFiles/gtest.dir/build.make include/googletest/googletest/CMakeFiles/gtest.dir/build
+.PHONY : gtest/fast
+
+gmock/demo2/FooMain.o: gmock/demo2/FooMain.cpp.o
+
+.PHONY : gmock/demo2/FooMain.o
 
 # target to build an object file
-basic/vector.cpp.o:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/vector.cpp.o
-.PHONY : basic/vector.cpp.o
+gmock/demo2/FooMain.cpp.o:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/gmock/demo2/FooMain.cpp.o
+.PHONY : gmock/demo2/FooMain.cpp.o
 
-basic/vector.i: basic/vector.cpp.i
+gmock/demo2/FooMain.i: gmock/demo2/FooMain.cpp.i
 
-.PHONY : basic/vector.i
+.PHONY : gmock/demo2/FooMain.i
 
 # target to preprocess a source file
-basic/vector.cpp.i:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/vector.cpp.i
-.PHONY : basic/vector.cpp.i
+gmock/demo2/FooMain.cpp.i:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/gmock/demo2/FooMain.cpp.i
+.PHONY : gmock/demo2/FooMain.cpp.i
 
-basic/vector.s: basic/vector.cpp.s
+gmock/demo2/FooMain.s: gmock/demo2/FooMain.cpp.s
 
-.PHONY : basic/vector.s
+.PHONY : gmock/demo2/FooMain.s
 
 # target to generate assembly for a file
-basic/vector.cpp.s:
-	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/basic/vector.cpp.s
-.PHONY : basic/vector.cpp.s
+gmock/demo2/FooMain.cpp.s:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/gmock/demo2/FooMain.cpp.s
+.PHONY : gmock/demo2/FooMain.cpp.s
+
+gmock/demo2/FooTest.o: gmock/demo2/FooTest.cpp.o
+
+.PHONY : gmock/demo2/FooTest.o
+
+# target to build an object file
+gmock/demo2/FooTest.cpp.o:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/gmock/demo2/FooTest.cpp.o
+.PHONY : gmock/demo2/FooTest.cpp.o
+
+gmock/demo2/FooTest.i: gmock/demo2/FooTest.cpp.i
+
+.PHONY : gmock/demo2/FooTest.i
+
+# target to preprocess a source file
+gmock/demo2/FooTest.cpp.i:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/gmock/demo2/FooTest.cpp.i
+.PHONY : gmock/demo2/FooTest.cpp.i
+
+gmock/demo2/FooTest.s: gmock/demo2/FooTest.cpp.s
+
+.PHONY : gmock/demo2/FooTest.s
+
+# target to generate assembly for a file
+gmock/demo2/FooTest.cpp.s:
+	$(MAKE) -f CMakeFiles/learn-cpp.dir/build.make CMakeFiles/learn-cpp.dir/gmock/demo2/FooTest.cpp.s
+.PHONY : gmock/demo2/FooTest.cpp.s
 
 # Help Target
 help:
@@ -156,12 +281,23 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... install/local"
+	@echo "... install/strip"
+	@echo "... install"
+	@echo "... list_install_components"
+	@echo "... learn-cpp"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... learn-cpp"
-	@echo "... basic/vector.o"
-	@echo "... basic/vector.i"
-	@echo "... basic/vector.s"
+	@echo "... gmock"
+	@echo "... gmock_main"
+	@echo "... gtest_main"
+	@echo "... gtest"
+	@echo "... gmock/demo2/FooMain.o"
+	@echo "... gmock/demo2/FooMain.i"
+	@echo "... gmock/demo2/FooMain.s"
+	@echo "... gmock/demo2/FooTest.o"
+	@echo "... gmock/demo2/FooTest.i"
+	@echo "... gmock/demo2/FooTest.s"
 .PHONY : help
 
 
